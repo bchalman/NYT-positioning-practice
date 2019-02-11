@@ -329,3 +329,39 @@ a.grid-item:hover {
   max-width: 750px;
   margin: 35px auto;
 }
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.foot-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo-link {
+  height: 60px;
+}
+
+.flex-menu{
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+
+}
+
+.flex-menu > * {
+  flex: 1;
+}
+
+.flex-menu span {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.flex-menu a {
+  display: block;
+  margin-bottom: 5px;
+}
