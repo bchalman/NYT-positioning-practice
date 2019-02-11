@@ -57,6 +57,7 @@ table {
 html {
   font-family: helvetica, arial, sans-serif;
   font-size: 14px;
+  height: 100%;
 }
 
 header {
@@ -195,6 +196,7 @@ h1 {
   margin: 0 auto;
   font-size: 15px;s
 }
+
 .body p {
   width: 80%;
   max-width: 750px;
@@ -205,12 +207,7 @@ p.bold {
   font-weight: bold;
 }
 
-/* .body-part {
-  display: flex;
-  flex-direction: column;
-} */
-
-.editor-picks {
+aside {
   width: 250px;
   height: 100%;
   float: right;
@@ -239,4 +236,96 @@ img.grid-item {
 
 a.grid-item:hover {
   text-decoration: underline;
+}
+
+.signup-ST {
+  flex-direction: column;
+}
+
+.signup-ST div {
+  width: 100%;
+}
+
+.signup-ST p {
+  margin-left: 0
+}
+
+.signup-ST div a {
+  padding: 10px 30px;
+  font-weight: bold;
+  color: white;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 5px;
+}
+
+.inflation {
+  margin: 0 auto
+}
+
+.heading-footing {
+  font-size: 85%;
+  color: #4e4e4e;
+}
+
+.inflation-grid {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  /* justify-content: center;
+  align-content: center; */
+  margin-bottom: 20px;
+}
+
+.inflation-grid > * {
+  width: 100%;
+}
+
+.inflation-grid span {
+  font-weight: bold;
+  padding-right: 5px;
+}
+
+.inflation-grid p {
+  margin: 0;
+}
+
+.player {
+  width: 80%;
+  max-width: 750px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.player p {
+  margin: 0;
+  color: #4e4e4e;
+}
+
+#video {
+  width: 750px;
+  height: 447.5px;
+  margin-bottom: 20px;
+}
+
+.button {
+  font-weight: bold;
+  color: white;
+  background-color: #6288a5;
+  border: 1px solid #326891;
+  border-radius: 5px;
+  padding: 10px 100px;
+}
+
+#version {
+  margin-bottom: 15px;
+}
+
+.comments {
+  width: 80%;
+  max-width: 750px;
+  margin: 35px auto;
 }
